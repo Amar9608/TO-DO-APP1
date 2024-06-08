@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background:pink;
+    padding: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-todo {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    border: 1px solid red;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#add-btn:hover {
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.complete-btn {
+    background-color: rgb(78, 78, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
